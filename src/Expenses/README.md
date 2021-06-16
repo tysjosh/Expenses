@@ -441,4 +441,3 @@ Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak]
 # Looking for Angular Consulting / Training / support?
 
 [Contact me](mpieszak84@gmail.com), and let's talk about your projects needs!
-

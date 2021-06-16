@@ -9,7 +9,6 @@ namespace Expenses.Api.Models.Expenses
         public string Description { get; set; }
         public decimal Amount { get; set; }
         public string Comment { get; set; }
-
         public int UserId { get; set; }
         public string Username { get; set; }
     }

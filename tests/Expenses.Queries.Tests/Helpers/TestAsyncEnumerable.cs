@@ -32,15 +32,9 @@ namespace Expenses.Queries.Tests.Helpers
         {
             private readonly IEnumerator<T> _items;
 
-            public T Current
-            {
-                get { return _items.Current; }
-            }
+            public T Current => _items.Current;
 
-            public Enumerator(IEnumerable<T> items)
-            {
-                _items = items.GetEnumerator();
-            }
+            public Enumerator(IEnumerable<T> items) => _items = items.GetEnumerator();
 
             public async Task<bool> MoveNext(CancellationToken cancellationToken)
             {
